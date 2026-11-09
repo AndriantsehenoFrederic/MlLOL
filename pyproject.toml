@@ -1,0 +1,20 @@
+[project]
+name = "mllol"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "AndriantsehenoFrederic", email = "fandriantse@ensc.fr" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "matplotlib>=3.11.2",
+    "pandas>=3.1.1",
+]
+
+[project.scripts]
+mllol = "mllol:main"
+
+[build-system]
+requires = ["uv_build>=0.12.20,<0.13.0"]
+build-backend = "uv_build"
