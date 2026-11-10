@@ -1,4 +1,4 @@
 .venv/
 
 src/mllol/data/dataset.json
-drc/mllol/data/cleaned_dataset.json
+src/mllol/data/cleaned_dataset.json
