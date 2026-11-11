@@ -1,4 +1,9 @@
 .venv/
+__pycache__/
+*.py[cod]
 
 src/mllol/data/dataset.json
 src/mllol/data/cleaned_dataset.json
+
+# Modèles, métriques et prédictions générés par l'entraînement
+src/mllol/model/artifacts/

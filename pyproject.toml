@@ -9,7 +9,14 @@ authors = [
 requires-python = ">=3.14"
 dependencies = [
     "matplotlib>=3.11.2",
+    "numpy>=2.3",
     "pandas>=3.1.1",
+]
+
+[project.optional-dependencies]
+ml = [
+    "keras>=3.0",
+    "jax>=0.12",
 ]
 
 [project.scripts]
