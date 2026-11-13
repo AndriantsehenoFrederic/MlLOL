@@ -7,3 +7,10 @@ src/mllol/data/cleaned_dataset.json
 
 # Modèles, métriques et prédictions générés par l'entraînement
 src/mllol/model/artifacts/
+
+# Interface Next.js
+web/node_modules/
+web/.next/
+web/out/
+web/.env.local
+web/*.tsbuildinfo

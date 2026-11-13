@@ -18,6 +18,10 @@ ml = [
     "keras>=3.0",
     "jax>=0.12",
 ]
+web = [
+    "fastapi>=0.115",
+    "uvicorn>=0.34",
+]
 
 [project.scripts]
 mllol = "mllol:main"
