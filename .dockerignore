@@ -1,0 +1,11 @@
+.git/
+.venv/
+web/
+__pycache__/
+*.pyc
+
+src/mllol/data/
+src/mllol/model/artifacts/*
+!src/mllol/model/artifacts/composition_model.keras
+!src/mllol/model/artifacts/vocabulary.json
+!src/mllol/model/artifacts/champion_stats_train.csv
